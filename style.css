@@ -1,10 +1,9 @@
 a:link {
-    text-decoration: none;
+    text-decoration: none; 
 }
 body {
-	background-color: #5cd65c;
 	font-family:Chalkboard;
-	color:#ffff1a;
+	color:#080808;
 	}
 	
 #navigation {
@@ -15,16 +14,19 @@ margin: 0;
 #navigation li {
 display:inline;
 float: left;
+background-color: #ffff1a;
+opacity:;
 }
 
 #navigation a, #navigation a:visited {
 	display: block;
 	width:200px;
-	border: 1px solid #ffff1a;
+	border: 1px solid black;
 	font-size: 0.8em;
 	text-align: center;
 	text-decoration: none;
-	color: #ffff1a;
+	color: white;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 	}
 
 a {
@@ -82,3 +84,9 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#h1Home h1 {
+	color: #fff;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	}
+
